@@ -1,0 +1,475 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+    width:100% ;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^ CODE && VERDER ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.main-wrapper{
+  margin:0 auto;
+  width: 1000px;
+}
+
+a{
+  text-decoration: none;
+}
+
+html {
+  font-size: 50.5%;
+}
+
+
+
+body{
+ background: url('img/url.jpg');
+
+}
+
+header nav{
+  width:100%;
+  height:60px;
+  background-color:#3B5998;
+}
+
+header nav ul{
+  float: left;
+}
+
+header nav ul li a{
+  font-family: arial;
+  font-size:16px;
+  color:#fff;
+  line-height:63px;
+}
+
+header .nav-login{
+  float:right;
+}
+
+header .nav-login form{
+  float:left;
+  padding-top:15px;
+}
+
+header .nav-login form input{
+  float:left;
+  width:140px;
+  height:30px;
+  padding:0px 10px;
+  margin-right:10px;
+  border:none;
+  background-color:#fff;
+  font-family: arial;
+  font-size:14px;
+  color:#111;
+  line-height:30px;
+}
+
+header .nav-login form button{
+  float:left;
+  width:60px;
+  height:30px;
+  margin-right:10px;
+  border:none;
+  background-color:#f3f3f3;
+  font-family: arial;
+  font-size:14px;
+  color:#111;
+  line-height:30px;
+  cursor:pointer;
+}
+
+header .nav-login form button:hover{
+  background-color:#ccc;
+
+}
+
+header .nav-login a{
+  display:block;
+  width:60px;
+  height:60px;
+  border:none;
+  float:left;
+  font-family: arial;
+  font-size:16px;
+  color:#fff;
+  line-height:63px;
+  cursor: pointer;
+}
+
+.main-container{
+  padding-top:40px;
+}
+
+.main-container h2 {
+    font-family: arial;
+    font-size: 30px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+/*. >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> STYLING VOOR SIGNUP.PHP <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+
+  width:90%;
+  height:40px;
+  padding:0px 5%;
+  margin-bottom: 4px;
+  border:none;
+  background-color:#fff;
+  font-family: arial;
+  font-size:16px;
+  color:#111;
+  line-height:40px;
+}
+
+.signup-form button {
+  display: block;
+  margin: 0 auto;
+  width:30%;
+  height:40px;
+  border: none;
+  background-color:#222;
+  font-family: arial;
+  font-size:16px;
+  color:#fff;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+   background-color:#111;
+}
+
+/*******************************  STYLE VOOR PAGE index.php ***********************/
+
+/* =14px */
+h1 {
+  font-size: 2.4rem;
+
+}
+
+
+
+/* =24px */
+.container__item {
+  margin: 0 auto 40px;
+}
+
+.landing-page-container {
+
+  height: 70rem;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #09383E;
+}
+
+.content__wrapper {
+  max-width: 1200px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.coords {
+  font-size: 1.5rem;
+  display: inline-block;
+  float: center;
+  position: relative;
+  letter-spacing: 0.2rem;
+  left: 55rem;
+  margin-top: 1%;
+}
+
+.ellipses-container {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 10.5rem;
+}
+.ellipses-container .greeting {
+  position: absolute;
+  top: 22.6rem;
+  left: 10.5rem;
+  right: 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 4rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.ellipses-container .greeting:after {
+  content: '';
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #0C383E;
+  position: relative;
+  top: -0.65rem;
+  left: -5.05rem;
+}
+
+.ellipses {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  border-style: solid;
+}
+
+.ellipses__outer--thin {
+  width: 100%;
+  height: 100%;
+  border-width: 1px;
+  border-color: rgba(9, 56, 62, 0.1);
+  -webkit-animation: ellipsesOrbit 15s ease-in-out infinite;
+          animation: ellipsesOrbit 15s ease-in-out infinite;
+}
+.ellipses__outer--thin:after {
+  content: "";
+  background-image: url("https://s29.postimg.org/5h0r4ftkn/ellipses_dial.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.15;
+}
+
+.ellipses__outer--thick {
+  width: 99.5%;
+  height: 99.5%;
+  border-color: #09383E transparent;
+  border-width: 2px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-animation: ellipsesRotate 15s ease-in-out infinite;
+          animation: ellipsesRotate 15s ease-in-out infinite;
+}
+
+.ellipses__orbit {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-width: 2px;
+  border-color: #09383E;
+  top: 5rem;
+  right: 6.75rem;
+}
+.ellipses__orbit:before {
+  content: '';
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #09383E;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.scroller {
+  width: 7.5rem;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -15%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  overflow: hidden;
+}
+.scroller .page-title {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5rem;
+  display: inline-block;
+  float: left;
+  margin-top: 1rem;
+}
+.scroller .timeline {
+  width: 1.5rem;
+  height: 9rem;
+  display: inline-block;
+  float: right;
+}
+.scroller .timeline .timeline__unit {
+  width: 100%;
+  height: 0.1rem;
+  display: block;
+  background-color: #0C383E;
+  margin: 0 0 2rem;
+  opacity: 0.2;
+}
+.scroller .timeline .timeline__unit.timeline__unit--active {
+  opacity: 1;
+}
+.scroller .timeline .timeline__unit.timeline__unit--active:after {
+  opacity: 0.2;
+}
+.scroller .timeline .timeline__unit:after {
+  content: '';
+  width: 70%;
+  height: 0.1rem;
+  display: block;
+  position: relative;
+  float: right;
+  background-color: #0C383E;
+  top: 1rem;
+}
+
+@-webkit-keyframes ellipsesRotate {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg);
+  }
+}
+
+@keyframes ellipsesRotate {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg);
+  }
+}
+@-webkit-keyframes ellipsesOrbit {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes ellipsesOrbit {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
